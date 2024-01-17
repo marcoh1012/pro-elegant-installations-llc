@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Pro Elegant Installations LLC</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+<body>
+        <!--Main Navigation-->
+    <header>
+      <style>
+        /* Carousel styling */
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+          height: 100vh;
+        }
+
+        .carousel-item:nth-child(1) {
+          background-image: url('img/materials/quartz.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        .carousel-item:nth-child(2) {
+          background-image: url('img/materials/granite.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+        .carousel-item:nth-child(3) {
+          background-image: url('img/materials/soapstone.jpeg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        }
+
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+          #introCarousel {
+            margin-top: -58.59px;
+          }
+          #introCarousel,
+          .carousel-inner,
+          .carousel-item,
+          .carousel-item.active {
+            height: 50vh;
+          }
+        }
+
+        .navbar .nav-link {
+          color: #fff !important;
+        }
+      </style>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+            <strong>Pro Elegant Installations LLC</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#intro">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Granite">Natural Stone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Granite">Manufactured Stone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.facebook.com/profile.php?id=100065213161295" rel="nofollow" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Carousel wrapper -->
+      <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-carousel-init>
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+          <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center" data-mdb-theme="dark">
+                  <h1 class="mb-3">Pro Elegant Installations LLC</h1>
+                  <h5 class="mb-4">With over 25 years of experience quality is our priority.</h5>
+                  
+                  <a  
+                    class="btn btn-outline-light btn-lg m-2" data-mdb-ripple-init
+                    href="#contact"
+                    role="button"
+                    rel="nofollow"
+                    target="_blank"
+                    >Contact </a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div>
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center">
+                  <h2>FREE ESTIMATES</h2>
+                  <h5> CALL : (574) 226-2459</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div>
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white text-center" data-mdb-theme="dark">
+                  <h2>Granite, Marble, Quartz & More</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel wrapper -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+      <div class="container">
+        <!--Section: Content-->
+        <section>
+          <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+              <div class="bg-image hover-overlay shadow-2-strong" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="img/kitchens/image0.jpeg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4">
+              <h4><strong>Pro Elegant Installations LLC</strong></h4>
+              <p><strong>With over 25 years of family-honed expertise, we prioritize quality in every countertop we craft. 
+                From granite and quartz to marble, quartzite, and soapstone, we offer a diverse palette of premium materials, 
+                expertly fabricated and installed to transform your vision into a lasting reality. 
+                Elevate your space with the confidence of generations of craftsmanship.</strong></p>
+            </div>
+          </div>
+        </section>
+        <!--Section: Content-->
+
+        <hr class="my-5" />
+
+        <!--Section: Content-->
+        <section class="text-center">
+          <h4 class="mb-5"><strong>View Our Work</strong></h4>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                  <img
+                    src="img/kitchens/IMG_4454.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Kitchen</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                  <img
+                    src="img/vanities/image5.jpeg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vanity</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                  <img
+                    src="img/other/IMG_8006.jpg"
+                    class="img-fluid"
+                  />
+                  <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+                </div> 
+                <div class="card-body">
+                  <h5 class="card-title">Fireplace & More</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                  <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-5" />
+
+        <!--Section: Contact Us-->
+        <section class="mb-5">
+          <h4 class="mb-5 text-center" id="contact"><strong>Contact Details</strong></h4>
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              Owners : Sijifredo Favela & Chris Favela
+              Phone number : 574-226-2459
+              Mailing address: 22607 Remington court Elkhart Indiana
+            </div>
+            <div>
+              Give us a call to schedule your free estimate today
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+      <hr class="m-0" />
+
+      <div class="text-center py-4 align-items-center">
+        <p>Follow us on social media</p>
+        <a
+          href="https://www.facebook.com/mdbootstrap"
+          class="btn btn-primary m-1" data-mdb-ripple-init
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://twitter.com/MDBootstrap"
+          class="btn btn-primary m-1"
+          role="button"
+          rel="nofollow"
+          target="_blank"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="footer text-center" style="font-size:smaller">
+          Designed & Built By<br>
+          <a href="htttp://marcoherrera.org/">Marco Herrera</a> <i class="far fa-copyright"></i> 2024 
+      </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+</body>
+</html>
