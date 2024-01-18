@@ -1,0 +1,26 @@
+.phone{
+    font-size: 2.5vw;
+    font-weight: bolder;
+    font-family: Impact;
+    text-align: center;
+    line-height: 80%;
+    margin-bottom: 1em;
+    color: rgb(1, 75, 107);
+    text-shadow:  0 0 0.2em rgb(56, 56, 232)
+}
+
+.mailing-address{
+    margin-bottom: 0.3em;
+}
+
+.mailing-address span{
+    font-size: 1.2vw;
+}
+
+.owners span{
+    font-size: 1vw;
+}
+
+.footer a{
+    color: black;
+}
