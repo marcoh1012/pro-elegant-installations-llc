@@ -24,7 +24,7 @@
         .carousel-inner,
         .carousel-item,
         .carousel-item.active {
-          height: 100vh;
+          height: 50vh;
         }
 
         .carousel-item:nth-child(1) {
@@ -65,26 +65,26 @@
       </style>
 
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+      <nav class="navbar navbar-expand-md navbar-dark" style="z-index: 2000;">
         <div class="container-fluid">
           <!-- Navbar brand -->
           <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
             <strong>Pro Elegant Installations LLC</strong>
           </a>
-          <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
+          <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active">
                 <a class="nav-link" aria-current="page" href="#intro">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#Granite">Materials</a>
+                <a class="nav-link" aria-current="page" href="/materials">Materials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#Granite">Gallery</a>
+                <a class="nav-link" aria-current="page" href="/gallery.">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#contact">Contact</a>
@@ -93,7 +93,7 @@
 
             <ul class="navbar-nav d-flex flex-row">
               <!-- Icons -->
-              <li class="nave-item">
+              <li class="nav-item nav-phone">
                   <div class="top-right-phone">
                     <i class="fa-solid fa-phone"></i>
                     (574) 226-2459
@@ -205,7 +205,7 @@
 
         <!--Section: Content-->
         <section class="text-center">
-          <h4 class="mb-5"><strong>View Our Work</strong></h4>
+          <h4 class="mb-5"><strong>Our Work</strong></h4>
 
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
@@ -279,10 +279,10 @@
 
         <!--Section: Contact Us-->
         <section class="text-center">
-          <h4 class="mb-5 text-center" id="contact"><strong>Contact Details</strong></h4>
+          <h4 class="mb-5 text-center" id="contact"><strong>Contact</strong></h4>
 
           <div class="row d-flex justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-6 justify-content-center contact-box"  >
               <div class="phone">
                 <i class="fa-solid fa-phone"></i>
                 (574)220-2459 
@@ -301,8 +301,13 @@
               </div>
               
             </div>
-            <div class="col-md-6 justify-content-center text-center">
-              Give us a call to schedule your free estimate today
+            <div class="col-md-6 justify-content-center text-center pic-container">
+              <img src="img/kitchens/image7.jpeg" class="img-fluid" />
+              <div class="centered text-animation">
+                Free Estimates
+              </div>
+              <div class="bottom pic-txt-bottom"> CALL US TODAY!</div>
+              
             </div>
           </div>
         </section>

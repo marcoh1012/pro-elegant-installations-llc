@@ -1,6 +1,6 @@
 .phone{
     font-size: 3.5vh;
-    font-weight: bolder;
+    font-weight: bold;
     font-family: Impact;
     text-align: center;
     line-height: 80%;
@@ -16,8 +16,18 @@
     font-size: 1.4vw;
     color: white;
     -webkit-text-stroke-width: 0.4px;
-    -webkit-text-stroke-color: black
+    -webkit-text-stroke-color: black;
+    font-weight:bolder;
+    @media (max-width: 768px){
+        font-size: 1.5em;
+    }
 
+}
+@media (max-width: 768px){
+    .nav-phone{
+        width: 100%;
+        text-align: right;
+    }
 }
 
 .mailing-address{
@@ -34,4 +44,75 @@
 
 .footer a{
     color: black;
+}
+
+.navbar{
+    background-color: rgba(128, 128, 128, 0.495);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.bottom {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+.contact-box{
+    /* border: solid 3px black; */
+    justify-content: center;
+    margin: auto;
+}
+
+.pic-container {
+    position: relative;
+    color: white;
+  }
+
+  .pic-container img{
+    border-radius: 2em;
+  }
+
+  .pic-txt-bottom{
+    font-size: 2vw;
+    @media (max-width: 768px) {
+        font-size: 1.2em;
+    }
+  }
+
+.text-animation {
+    font-size: 2.5em;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: #fff;
+	-webkit-text-stroke-width: 1px;
+	text-shadow: 2px 2px 10px #2962ff;
+	transition: all 0.5s ease-in-out;
+	text-align: center;
+	letter-spacing: 0.2em;
+	animation: flicker 1s ease-in-out infinite alternate;
+
+	&:hover {
+		color: #fff;
+	}
+    @media (max-width: 768px) {
+		font-size: 1.3em;
+	}
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 0.5;
+		text-shadow: 2px 2px 10px #2962ff;
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 2px 2px 20px #2962ff;
+	}
 }
