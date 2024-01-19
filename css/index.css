@@ -47,7 +47,10 @@
 }
 
 .navbar{
-    background-color: rgba(128, 128, 128, 0.495);
+    background-color: rgba(70, 68, 68, 0.495);
+}
+.nav-materials, .nav-gallery{
+    background-color: rgba(70, 68, 68, 0.886);
 }
 
 .centered {
@@ -115,4 +118,11 @@
 		opacity: 1;
 		text-shadow: 2px 2px 20px #2962ff;
 	}
+}
+
+.materials-main span{
+    font-weight: bolder;
+}
+.materials-main h5{
+    font-weight: bolder;
 }
