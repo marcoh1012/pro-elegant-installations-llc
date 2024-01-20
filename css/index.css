@@ -52,6 +52,9 @@
 .nav-materials, .nav-gallery{
     background-color: rgba(70, 68, 68, 0.886);
 }
+.nav-materials strong, .nav-gallery strong{
+    color: white !important;
+}
 
 .centered {
     position: absolute;
