@@ -139,7 +139,7 @@
     grid-row-start: 1;
     grid-row-end: auto;
     align-content: start;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     transition: all 150ms linear;
   }
@@ -177,7 +177,7 @@
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    /* width: 100%; */
+    max-width: 100%;
     transition: all 150ms linear;
     max-height: 600px;
     justify-content: center;
