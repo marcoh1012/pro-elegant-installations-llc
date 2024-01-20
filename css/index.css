@@ -126,3 +126,132 @@
 .materials-main h5{
     font-weight: bolder;
 }
+
+/* Gallery CSS */
+.kitchen-gallery, .vanity-gallery, .other-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: auto;
+    align-content: start;
+    max-width: 1000px;
+    margin: 0 auto;
+    transition: all 150ms linear;
+  }
+  
+  .kitchen-gallery input[type="radio"]{
+    display: none;
+  }
+  
+  .kitchen-gallery label {
+    position: relative;
+    display: block;
+    padding-bottom: 60%;
+    margin: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .kitchen-gallery label:before{
+    border: 1px solid #e3e3e3;
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    top: -5px;
+  }
+  
+  .kitchen-gallery img, 
+  .vanity-gallery img, 
+  .other-gallery img {
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* width: 100%; */
+    transition: all 150ms linear;
+    max-height: 600px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .kitchen-gallery input[name="select"]:checked + label + img{
+    display: block;
+  }
+  
+  .kitchen-gallery input[name="select"]:checked + label:before{
+    border: 1
+  }
+/* vanity */
+
+.vanity-gallery input[type="radio"]{
+    display: none;
+  }
+.vanity-gallery label {
+    position: relative;
+    display: block;
+    padding-bottom: 60%;
+    margin: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+.vanity-gallery label:before{
+    border: 1px solid #e3e3e3;
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    top: -5px;
+  }
+.vanity-gallery input[name="select"]:checked + label + img{
+  display: block;
+}
+
+.vanity-gallery input[name="select"]:checked + label:before{
+  border: 1
+}
+
+/* other */
+
+.other-gallery input[type="radio"]{
+    display: none;
+  }
+
+.other-gallery label {
+    position: relative;
+    display: block;
+    padding-bottom: 60%;
+    margin: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+.other-gallery label:before{
+    border: 1px solid #e3e3e3;
+    content: '';
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    top: -5px;
+  }
+.other-gallery input[name="select"]:checked + label + img{
+  display: block;
+}
+
+.other-gallery input[name="select"]:checked + label:before{
+  border: 1
+}
